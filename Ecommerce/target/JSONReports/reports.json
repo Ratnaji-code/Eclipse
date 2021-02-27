@@ -1,0 +1,77 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-22T14:37:39.616Z",
+        "line": 4,
+        "name": "Search box validation",
+        "description": "",
+        "id": "search-field-validation;search-box-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22229561100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should navigated to automation site",
+            "match": {
+              "location": "stepDefination.SearchFunction.user_should_navigated_to_automation_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3770539800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter search criteria and click search button",
+            "match": {
+              "location": "stepDefination.SearchFunction.enter_search_criteria_and_click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2965957800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Select a product from search results",
+            "match": {
+              "location": "stepDefination.SearchFunction.select_a_product_from_search_results()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3571666300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Add a prodct to cart",
+            "match": {
+              "location": "stepDefination.SearchFunction.add_a_prodct_to_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Search field validation",
+    "description": "",
+    "id": "search-field-validation",
+    "keyword": "Feature",
+    "uri": "file:Features/Search.feature",
+    "tags": []
+  }
+]

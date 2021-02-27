@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.ecommerce.pageLibrary.womenDressRepository">
+        <methods>
+          <include name="selectBlouseColor"/>
+          <include name="selectBlouses"/>
+          <include name="selectSize"/>
+          <include name="browserInitialization"/>
+        </methods>
+      </class> <!-- com.ecommerce.pageLibrary.womenDressRepository -->
+      <class name="com.ecommerce.pageLibrary.SearchRepository">
+        <methods>
+          <include name="addtoCart"/>
+          <include name="browserInitialization"/>
+        </methods>
+      </class> <!-- com.ecommerce.pageLibrary.SearchRepository -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
